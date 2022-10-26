@@ -1,0 +1,94 @@
+.cart {
+    width: 250px;
+    height: 340px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.cart .name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.cart .cost {
+    font-size: 1.3rem;
+    margin: 30px 0;
+}
+.cart .add-to-cart {
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.cart .add-to-cart:hover {
+    background: cadetblue;
+}
+.cart .add-to-cart:active {
+    background: red;
+}
+.goods-out {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-cart img {
+    width: 48px;
+}
+.shapka {
+    width: 100%;
+    height: 75px;
+    border: 1px solid black;
+    background-color: palegreen;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.button {
+    font-size: 1.1rem;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+.button:active {
+    background-color: red;
+}
+.fon {
+    background-image: url('https://www.bmw.ru/content/dam/bmw/common/all-models/8-series/coupe/2022/navigation/bmw-8series-coupe-modellfinder.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.strochka {
+    width: 200px;
+    padding: 20px;
+}
